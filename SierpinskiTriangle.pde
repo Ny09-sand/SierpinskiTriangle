@@ -4,7 +4,8 @@ public void setup()
   size(750,650); 
 }
 public void draw()
-{
+{ 
+  noLoop(); 
   sierpinski(80,600,600); 
 }
 
